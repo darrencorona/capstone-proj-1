@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact</title>
+  </head>
+  <body>
+    <h2>My Contact Details</h2>
+    <p>Brgy. Matina Crossing, Davao City, Dav Sur, Philippines 8000</p>
+    <p>09876543210</p>
+    <p>darren.corona18@gmail.com</p>
+
+    <hr />
+
+    <form
+      action="mailto:darren.corona18@gmail.com"
+      method="post"
+      target="_blank"
+    >
+      <label for="yourName">Your Name:</label>
+      <input type="text" name="yourName" id="yourName" />
+      <br />
+      <label for="yourEmail">You Email:</label>
+      <input type="email" name="yourEmail" id="yourEmail" />
+      <br />
+      <label for="yourMessage">Your Message:</label>
+      <br />
+      <textarea
+        name="yourMessage"
+        id="yourMessage"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
